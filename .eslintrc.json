@@ -29,6 +29,12 @@
     "prettier"
   ],
   "rules": {
+    "no-unused-expressions": "off",
+    "no-param-reassign": "off",
+    "jsx-a11y/accessible-emoji": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/prop-types": "off",
+    "react/no-unescaped-entities": "off",
     "prettier/prettier": "error",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",

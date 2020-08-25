@@ -7,6 +7,20 @@ const GlobalStyles = createGlobalStyle`
     border: 0;
     box-sizing: border-box;
   }
+
+  body {
+    background: #ddd;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body, input, button, textarea {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  button {
+    cursor: pointer;
+  }
 `;
 
 export default GlobalStyles;
